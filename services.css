@@ -1,0 +1,54 @@
+
+#services{
+    overflow: hidden;
+    width: 100vw!important;;
+}
+.main{
+    overflow-x:hidden;
+  }
+  .horizontal-sliders{
+    display:flex;
+    flex-wrap:no-wrap;
+    width: 500%;
+    overflow-x:hidden;
+  }
+  .slide{
+    height:100vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+
+  }
+.slide0{
+   
+    background: url(images/Explode\ Shape-1.png);
+    background-repeat: no-repeat;
+background-position: center left;
+    background-size: 40%;
+}
+.slide1{
+    background: url(images/Explode\ Shape-2.png);
+    background-repeat: no-repeat;
+background-position: center left;
+    background-size: 40%;
+}
+.slide2{
+    background: url(images/Explode\ Shape-3.png);
+    background-repeat: no-repeat;
+background-position: center left;
+    background-size: 40%;
+}
+.slide3{
+    background: url(images/Explode\ Shape-4.png);
+    background-repeat: no-repeat;
+background-position: center left;
+    background-size: 40%;
+}
+.slide4{
+    background: url(images/Explode\ Shape.png);
+    background-repeat: no-repeat;
+background-position: center left;
+    background-size: 40%;
+}

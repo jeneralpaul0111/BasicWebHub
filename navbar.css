@@ -1,0 +1,127 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    }
+    html {
+    font-family: "Ubuntu";
+   background: var(--blue-0);
+    scroll-behavior: smooth;
+ 
+    }
+
+    body{
+        position: relative;
+font-family: var(--font-sans);
+color: var(--gray-8);
+    }
+
+    h1{
+        color:var(--brand)
+    }
+
+    section {
+    height: min(1080px,100vh);
+    margin: 0 auto;
+    width: min(1440px,100%) ;
+ background-color: var(--blue-0);
+
+    position: relative;
+    }
+  
+    nav {
+ 
+    top: 0;
+    left: 0;
+  
+  position: relative;
+    position: sticky;
+    width: 100%;
+    background: var(--blue-0);
+z-index: 1;
+    }
+
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+        flex-direction: row-reverse;
+      
+        width: min(1440px,100%) ;
+        box-shadow: var(--shadow-1);
+        background: var(--blue-0);
+margin: 0 auto;
+    }
+
+    nav .nav-container ul li {
+        display: inline-block;
+
+
+
+    }
+    nav .nav-container ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: var(--gray-7);
+    font-weight: var(--font-weight-6);
+    }
+    nav .nav-container ul li.active {
+       
+  border-bottom: 1px solid var(--stone-8);
+
+
+    }
+    nav .nav-container ul li.active a {
+    color: var(--gray-8);
+    }
+
+
+
+    .menu-container {
+        display: none;
+    }
+
+
+    @media only screen and (max-width: 600px) {
+
+        .menu-container {
+            display: block;
+  
+           display: flex;
+           align-items: center;
+        }
+
+
+    
+       nav .nav-container ul li {
+        display: none;
+
+   
+
+    }
+
+
+        nav .nav-container ul li.active {
+       
+      border: none;
+            border-radius:30px;
+            transition: 0.3s;
+            display: block;
+            }
+
+            .toggle{
+                width: 50px;
+                text-align: center;
+                height: 100%;
+            }
+
+            .toggle i{
+                font-size: var(--font-size-4);
+                color: var(--gray-8);
+            }
+
+    } 
