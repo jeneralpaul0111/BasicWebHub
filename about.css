@@ -1,0 +1,21 @@
+.about-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.images{
+    display: flex;
+    align-items: flex-end;
+}
+.images img:nth-child(2){
+height: 80%;
+}
+.about-content{
+    margin: auto;
+    width: 50%;
+}
+.about-content p {
+    max-inline-size: inherit;
+    text-align: justify;
+}
